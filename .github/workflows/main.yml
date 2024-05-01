@@ -1,0 +1,8 @@
+name: darey-actions
+on: workflow_dispatch
+jobs:
+  Testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing Workflow
+        run: echo "Workflow Works"
